@@ -7,7 +7,7 @@ import type * as Preset from '@docusaurus/preset-classic';
 const config: Config = {
   title: 'Third Space Interactive Documentation',
   tagline: 'Unreal Engine Templates & Resources',
-  favicon: 'img/favicon.ico',
+  favicon: 'img/favicon-32x32.png',
 
   // Future flags, see https://docusaurus.io/docs/api/docusaurus-config#future
   future: {
@@ -42,7 +42,13 @@ const config: Config = {
         docs: {
           sidebarPath: './sidebars.ts',
         },
-        blog: false, // Disable blog for docs-only site
+        blog: {
+          showReadingTime: true,
+          feedOptions: {
+            type: ['rss', 'atom'],
+            xslt: true,
+          },
+        },
         theme: {
           customCss: './src/css/custom.css',
         },
@@ -54,21 +60,26 @@ const config: Config = {
     // Replace with your project's social card
     image: 'img/docusaurus-social-card.jpg',
     colorMode: {
-      respectPrefersColorScheme: true,
+      defaultMode: 'light',
+      respectPrefersColorScheme: false,
     },
     navbar: {
       title: 'Third Space Interactive',
       logo: {
         alt: 'Third Space Interactive Logo',
         src: 'img/logo.svg',
+        srcDark: 'img/logo-white.svg',
+        width: 32,
+        height: 32,
       },
       items: [
         {
           type: 'docSidebar',
           sidebarId: 'templatesSidebar',
           position: 'left',
-          label: 'Templates',
+          label: 'Docs',
         },
+        {to: '/blog', label: 'Blog', position: 'left'},
         {
           href: 'https://thirdspaceinteractive.ca',
           label: 'Main Site',

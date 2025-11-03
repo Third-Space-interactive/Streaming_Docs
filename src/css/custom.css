@@ -1,30 +1,128 @@
 /**
- * Any CSS included here will be global. The classic template
- * bundles Infima by default. Infima is a CSS framework designed to
- * work well for content-centric websites.
+ * Third Space Interactive Documentation
+ * Custom branding and styles
  */
 
-/* You can override the default Infima variables here. */
-:root {
-  --ifm-color-primary: #2e8555;
-  --ifm-color-primary-dark: #29784c;
-  --ifm-color-primary-darker: #277148;
-  --ifm-color-primary-darkest: #205d3b;
-  --ifm-color-primary-light: #33925d;
-  --ifm-color-primary-lighter: #359962;
-  --ifm-color-primary-lightest: #3cad6e;
-  --ifm-code-font-size: 95%;
-  --docusaurus-highlighted-code-line-bg: rgba(0, 0, 0, 0.1);
+/* Font Imports */
+@font-face {
+  font-family: "circular-web";
+  src: url("/fonts/circularweb-book.woff2") format("woff2");
+  font-display: swap;
 }
 
-/* For readability concerns, you should choose a lighter palette in dark mode. */
+@font-face {
+  font-family: "general";
+  src: url("/fonts/general.woff2") format("woff2");
+  font-display: swap;
+}
+
+@font-face {
+  font-family: "robert-medium";
+  src: url("/fonts/robert-medium.woff2") format("woff2");
+  font-display: swap;
+}
+
+@font-face {
+  font-family: "robert-regular";
+  src: url("/fonts/robert-regular.woff2") format("woff2");
+  font-display: swap;
+}
+
+@font-face {
+  font-family: "zentry";
+  src: url("/fonts/zentry-regular.woff2") format("woff2");
+  font-display: swap;
+}
+
+/* Light Mode - Third Space Interactive Brand Colors */
+:root {
+  /* Primary brand color - Violet */
+  --ifm-color-primary: #5724FF;
+  --ifm-color-primary-dark: #4e20e6;
+  --ifm-color-primary-darker: #491ed9;
+  --ifm-color-primary-darkest: #3c19b3;
+  --ifm-color-primary-light: #6b3cff;
+  --ifm-color-primary-lighter: #7447ff;
+  --ifm-color-primary-lightest: #8c61ff;
+
+  /* Background colors */
+  --ifm-background-color: #DFDFF0;
+  --ifm-background-surface-color: #F0F2FA;
+
+  /* Text colors */
+  --ifm-font-color-base: #010101;
+  --ifm-heading-color: #010101;
+
+  /* Custom brand colors */
+  --tsi-blue-light: #4fb7dd;
+  --tsi-yellow: #edff66;
+  --tsi-yellow-dark: #8e983f;
+
+  /* Fonts */
+  --ifm-font-family-monospace: "robert-regular", monospace;
+
+  /* Code styling */
+  --ifm-code-font-size: 95%;
+  --docusaurus-highlighted-code-line-bg: rgba(87, 36, 255, 0.1);
+
+  /* Navbar */
+  --ifm-navbar-background-color: #F0F2FA;
+  --ifm-navbar-shadow: 0 1px 2px 0 rgba(87, 36, 255, 0.1);
+
+  /* Footer */
+  --ifm-footer-background-color: #010101;
+}
+
+/* Dark Mode - Adjusted for better contrast */
 [data-theme='dark'] {
-  --ifm-color-primary: #25c2a0;
-  --ifm-color-primary-dark: #21af90;
-  --ifm-color-primary-darker: #1fa588;
-  --ifm-color-primary-darkest: #1a8870;
-  --ifm-color-primary-light: #29d5b0;
-  --ifm-color-primary-lighter: #32d8b4;
-  --ifm-color-primary-lightest: #4fddbf;
-  --docusaurus-highlighted-code-line-bg: rgba(0, 0, 0, 0.3);
+  /* Primary color - slightly lighter for dark mode */
+  --ifm-color-primary: #7447ff;
+  --ifm-color-primary-dark: #5f2fff;
+  --ifm-color-primary-darker: #5724ff;
+  --ifm-color-primary-darkest: #4215e6;
+  --ifm-color-primary-light: #8c61ff;
+  --ifm-color-primary-lighter: #9970ff;
+  --ifm-color-primary-lightest: #b599ff;
+
+  /* Dark mode backgrounds */
+  --ifm-background-color: #1a1a1f;
+  --ifm-background-surface-color: #25252d;
+
+  /* Dark mode text */
+  --ifm-font-color-base: #DFDFF0;
+  --ifm-heading-color: #F0F2FA;
+
+  /* Code highlighting */
+  --docusaurus-highlighted-code-line-bg: rgba(116, 71, 255, 0.3);
+
+  /* Navbar dark */
+  --ifm-navbar-background-color: #25252d;
+
+  /* Footer dark */
+  --ifm-footer-background-color: #010101;
+}
+
+/* Blog customization - make titles black */
+article h2 a,
+article h2 a:hover,
+.blog-wrapper h1,
+.blog-wrapper h2,
+.blog-wrapper h2 a,
+.blog-wrapper h2 a:hover {
+  color: #010101 !important;
+}
+
+[data-theme='dark'] article h2 a,
+[data-theme='dark'] article h2 a:hover,
+[data-theme='dark'] .blog-wrapper h1,
+[data-theme='dark'] .blog-wrapper h2,
+[data-theme='dark'] .blog-wrapper h2 a,
+[data-theme='dark'] .blog-wrapper h2 a:hover {
+  color: #F0F2FA !important;
+}
+
+/* Blog tags - white background in light mode when unhovered */
+.blog-wrapper .tag,
+.blog-wrapper .badge {
+  background-color: #ffffff !important;
 }
