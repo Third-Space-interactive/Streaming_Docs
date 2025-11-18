@@ -203,6 +203,5 @@ Having issues? See the [Troubleshooting Guide](../troubleshooting) for detailed 
 ## Next Steps
 
 - [Selection System Details →](../selection-system)
-- [Camera Configuration →](../camera-configuration) *(Add camera lag for smoother movement)*
 - [Troubleshooting →](../troubleshooting) *(Common issues and solutions)*
 - [Advanced Navigation →](../advanced-navigation/setup) *(For larger scale projects)*

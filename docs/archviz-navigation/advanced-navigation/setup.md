@@ -221,6 +221,5 @@ For other issues, see the [Troubleshooting Guide](../troubleshooting):
 ## Next Steps
 
 - [Selection System Configuration →](../selection-system)
-- [Camera Configuration →](../camera-configuration) *(Add camera lag for smoother movement)*
 - [Troubleshooting →](../troubleshooting) *(Detailed collision fixes and common issues)*
 - [Basic Navigation →](../basic-navigation/setup) *(For simpler, center-focused navigation)*

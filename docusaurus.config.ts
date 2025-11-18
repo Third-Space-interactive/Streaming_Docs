@@ -93,7 +93,11 @@ const config: Config = {
           position: "left",
           label: "Docs",
         },
-        { to: "/blog", label: "Blog", position: "left" },
+        {
+          to: "https://thirdspaceinteractive.ca/blog",
+          label: "Blog",
+          position: "left",
+        },
         {
           href: "https://thirdspaceinteractive.ca",
           label: "Main Site",
@@ -112,7 +116,7 @@ const config: Config = {
             },
             {
               label: "Blog",
-              to: "/blog",
+              to: "https://thirdspaceinteractive.ca/blog",
             },
             {
               label: "Privacy Policy",
