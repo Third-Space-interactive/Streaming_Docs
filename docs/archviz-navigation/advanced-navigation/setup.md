@@ -1,8 +1,8 @@
 # Advanced Navigation Setup
 
-Perfect for larger scale projects like neighbourhood or city explorers. The navigation is built to feel like Google Earth's navigation and is much more of a "free roam" or explore type.
+Perfect for larger scale projects like neighbourhood or city explorers. The navigation is inspired by Google Earth navigation's familiar feel and is much more of a "free roam" or explore type.
 
-> Part of the **UE5 Navigation Template** featuring Google Earth-style controls for architectural visualization.
+> Part of the **UE5 Navigation Template** for intuitive advanced controls for architectural visualization.
 
 ## When to Use Advanced Navigation
 
@@ -19,6 +19,7 @@ Perfect for larger scale projects like neighbourhood or city explorers. The navi
 3. Set your **Game Mode** to `TSI_Gamemode_Advanced`
 
 This will automatically configure:
+
 - Appropriate player character
 - Player controller
 - HUD class for advanced navigation
@@ -52,6 +53,7 @@ The advanced navigation system uses a unique anchor-based approach:
 ## Anchor System
 
 The `BP_NavAnchor` blueprint provides:
+
 - Dynamic position updates
 - Cursor-relative movement
 - Smooth exploration controls
@@ -61,21 +63,22 @@ The `BP_NavAnchor` blueprint provides:
 
 ## Key Differences from Basic
 
-| Feature | Basic Navigation | Advanced Navigation |
-|---------|-----------------|---------------------|
-| Best For | Single objects/buildings | Neighborhoods/cities |
-| Camera System | Spring arm | Fixed camera with anchor |
-| Movement Style | Center-focused orbit | Free roam exploration |
+| Feature        | Basic Navigation            | Advanced Navigation           |
+| -------------- | --------------------------- | ----------------------------- |
+| Best For       | Single objects/buildings    | Neighborhoods/cities          |
+| Camera System  | Spring arm                  | Fixed camera with anchor      |
+| Movement Style | Center-focused orbit        | Free roam exploration         |
 | Orbit Behavior | Always orbits screen center | Orbits any point under cursor |
-| Zoom Direction | Always toward center | Toward cursor position |
-| Panning | Standard pan | Cursor stays locked to object |
-| Scale | Small to medium | Large environments |
+| Zoom Direction | Always toward center        | Toward cursor position        |
+| Panning        | Standard pan                | Cursor stays locked to object |
+| Scale          | Small to medium             | Large environments            |
 
 ---
 
 ## Advanced Navigation Controls
 
 ### Third Person Mode (Default)
+
 - **Left Mouse Button** - Orbit around point under cursor (not center!)
 - **Right Mouse Button** - Pan camera (object stays under cursor)
 - **Mouse Wheel** - Zoom toward cursor position
@@ -83,6 +86,7 @@ The `BP_NavAnchor` blueprint provides:
 - **Hover Object** - Highlight object
 
 ### First Person Mode
+
 - **F Key** - Toggle first person mode
 - **Left Mouse Button** - Look around
 - **Right Mouse Button** - Strafe (WASD-style movement)
@@ -221,5 +225,5 @@ For other issues, see the [Troubleshooting Guide](../troubleshooting):
 ## Next Steps
 
 - [Selection System Configuration →](../selection-system)
-- [Troubleshooting →](../troubleshooting) *(Detailed collision fixes and common issues)*
-- [Basic Navigation →](../basic-navigation/setup) *(For simpler, center-focused navigation)*
+- [Troubleshooting →](../troubleshooting) _(Detailed collision fixes and common issues)_
+- [Basic Navigation →](../basic-navigation/setup) _(For simpler, center-focused navigation)_

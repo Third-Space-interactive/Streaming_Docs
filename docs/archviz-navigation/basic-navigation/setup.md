@@ -2,7 +2,7 @@
 
 Perfect for single focus assets ranging in scale from an object to a building.
 
-> Part of the **UE5 Navigation Template** featuring Google Earth-style controls for architectural visualization.
+> Part of the **UE5 Navigation Template** smooth controls for architectural visualization.
 
 ## When to Use Basic Navigation
 
@@ -66,6 +66,7 @@ For click-to-move functionality, assign collision to all walkable surfaces.
 ![Setting floor plate collision](/img/archviz-nav/floor-collision.webp)
 
 **What to tag as FloorPlate:**
+
 - Floor tiles
 - Ground planes
 - Walkable surfaces
@@ -145,6 +146,7 @@ To change the highlight color:
 Press **Alt + P** (or click Play) to test your navigation:
 
 ### Third Person Mode (Default)
+
 - **Left Mouse Button** - Orbit around focused point
 - **Right Mouse Button** - Pan camera
 - **Mouse Wheel** - Zoom in/out
@@ -152,6 +154,7 @@ Press **Alt + P** (or click Play) to test your navigation:
 - **Hover Object** - Highlight object
 
 ### First Person Mode
+
 - **F Key** - Switch to first person
 - **Left Mouse Button** - Look around
 - **Right Mouse Button** - Strafe (forward/backward/left/right)
@@ -159,6 +162,7 @@ Press **Alt + P** (or click Play) to test your navigation:
 - **Mouse Wheel** - Change FOV (zoom)
 
 **Verify:**
+
 - ✅ Camera spawns at Player Start location
 - ✅ Objects highlight when you hover over them
 - ✅ Clicking objects focuses camera and locks orbit
@@ -203,5 +207,5 @@ Having issues? See the [Troubleshooting Guide](../troubleshooting) for detailed 
 ## Next Steps
 
 - [Selection System Details →](../selection-system)
-- [Troubleshooting →](../troubleshooting) *(Common issues and solutions)*
-- [Advanced Navigation →](../advanced-navigation/setup) *(For larger scale projects)*
+- [Troubleshooting →](../troubleshooting) _(Common issues and solutions)_
+- [Advanced Navigation →](../advanced-navigation/setup) _(For larger scale projects)_

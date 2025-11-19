@@ -1,10 +1,10 @@
 # UE5 Navigation Template
 
-## Google Earth Style Controls for Architectural Visualization
+## Smooth Intuitive Controls for Architectural Visualization, Product Configurators and City Explorers
 
 ![UE5 Navigation Template Thumbnail](/img/archviz-nav/template-thumbnail.webp)
 
-Thank you for purchasing the **UE5 Navigation Template**! This comprehensive navigation system features Google Earth-style controls designed specifically for architectural visualization projects with support for both desktop and mobile platforms.
+Thank you for purchasing the **UE5 Navigation Template**!
 
 ## Overview
 
@@ -73,6 +73,6 @@ Choose the navigation mode that best fits your project:
 
 ### Community Support
 
-- **Unreal Forums:** Search for "UE5 Navigation Template, Google Earth Style Controls"
+- **Unreal Forums:** Search for "Third Space Nav"
 - **FAB Reviews:** Check product reviews for user tips
 - **Discord:** Join Third Space Interactive community [Discord Channel](https://discord.gg/8pVjBjCe)
