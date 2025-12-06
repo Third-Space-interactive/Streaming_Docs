@@ -46,6 +46,16 @@
   object-fit: contain;
 }
 
+.emojiIcon {
+  font-size: 3.5rem;
+  display: inline-block;
+  line-height: 1;
+}
+
+.featureCol {
+  margin-bottom: 1.5rem;
+}
+
 .featureTitle {
   font-size: 1.5rem;
   font-weight: 600;

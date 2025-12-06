@@ -14,25 +14,67 @@ type FeatureItem = {
 
 const FeatureList: FeatureItem[] = [
   {
-    title: "Get Started",
-    icon: "/img/icons/gettingStarted.png",
+    title: "Quick Start",
+    icon: "▶",
     description:
-      "Explore our comprehensive documentation for Unreal Engine templates and get started quickly.",
-    link: "/docs/intro",
+      "Deploy your first Unreal Engine project to the cloud in under 5 minutes. No AWS expertise required.",
+    link: "/docs/getting-started/quick-start",
   },
   {
-    title: "UE5 Navigation Template",
-    icon: "/img/icons/archviz-nav.png",
+    title: "Pricing & Plans",
+    icon: "$",
     description:
-      "Learn how to use our UE5 Navigation template for your architectural visualization projects.",
-    link: "/docs/archviz-navigation",
+      "Transparent credit-based pricing. Compare tiers and find the perfect plan for your needs.",
+    link: "/docs/pricing",
   },
   {
-    title: "Latest Updates",
-    icon: "/img/icons/blog.png",
+    title: "How It Works",
+    icon: "◉",
     description:
-      "Stay up to date with the latest news, tutorials, and announcements from Third Space Interactive.",
-    link: "/blog",
+      "Understand the technology behind Third Space's managed Pixel Streaming platform.",
+    link: "/docs/core-concepts/how-it-works",
+  },
+  {
+    title: "System Requirements",
+    icon: "✓",
+    description:
+      "Check UE version compatibility, packaging requirements, and file size limits for your tier.",
+    link: "/docs/getting-started/system-requirements",
+  },
+  {
+    title: "Use Cases",
+    icon: "●",
+    description:
+      "Explore real-world examples: Architecture, Education, Sales & Marketing, Digital Twins.",
+    link: "/docs/core-concepts/use-cases",
+  },
+  {
+    title: "Credit System",
+    icon: "⊕",
+    description:
+      "Learn how credits work, pricing per minute, idle timeouts, and cost optimization strategies.",
+    link: "/docs/core-concepts/credit-system",
+  },
+  {
+    title: "Packaging Guide",
+    icon: "□",
+    description:
+      "Step-by-step instructions for packaging your Unreal Engine project for Linux or Windows.",
+    link: "/docs/technical-docs/packaging",
+  },
+  {
+    title: "FAQ",
+    icon: "?",
+    description:
+      "Quick answers to common questions about billing, credits, performance, and platform features.",
+    link: "/docs/faq",
+  },
+  {
+    title: "Troubleshooting",
+    icon: "⚡",
+    description:
+      "Solve common issues with uploads, deployment, performance, and streaming connections.",
+    link: "/docs/troubleshooting",
   },
 ];
 
@@ -40,10 +82,10 @@ function Feature({ title, icon, description, link, isExternal }: FeatureItem) {
   const isImageIcon = icon.startsWith("/") || icon.includes(".");
 
   return (
-    <div className={clsx("col col--4")}>
+    <div className={clsx("col col--4", styles.featureCol)}>
       <Link to={link} className={styles.featureCard}>
         <div className={styles.featureIcon}>
-          {isImageIcon ? <img src={icon} alt={`${title} icon`} /> : icon}
+          {isImageIcon ? <img src={icon} alt={`${title} icon`} /> : <span className={styles.emojiIcon}>{icon}</span>}
         </div>
         <Heading as="h3" className={styles.featureTitle}>
           {title}

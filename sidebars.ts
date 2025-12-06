@@ -55,6 +55,16 @@ const sidebars: SidebarsConfig = {
     },
     {
       type: 'category',
+      label: 'Use Case Guides',
+      items: [
+        'use-case-guides/architecture-real-estate',
+        'use-case-guides/education-training',
+        'use-case-guides/sales-marketing',
+        'use-case-guides/digital-twins',
+      ],
+    },
+    {
+      type: 'category',
       label: 'Technical Documentation',
       items: [
         {
@@ -62,6 +72,15 @@ const sidebars: SidebarsConfig = {
           label: 'Packaging Your Project',
           items: [
             'technical-docs/packaging/index',
+            'technical-docs/packaging/linux-builds',
+            'technical-docs/packaging/windows-builds',
+          ],
+        },
+        {
+          type: 'category',
+          label: 'Integration',
+          items: [
+            'technical-docs/integration/iframe-embedding',
           ],
         },
       ],
@@ -82,7 +101,12 @@ const sidebars: SidebarsConfig = {
         type: 'doc',
         id: 'troubleshooting/index',
       },
-      items: [],
+      items: [
+        'troubleshooting/upload-issues',
+        'troubleshooting/deployment-issues',
+        'troubleshooting/performance-issues',
+        'troubleshooting/connection-problems',
+      ],
     },
     {
       type: 'category',
