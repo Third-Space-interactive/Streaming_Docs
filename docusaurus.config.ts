@@ -5,8 +5,8 @@ import type * as Preset from "@docusaurus/preset-classic";
 // This runs in Node.js - Don't use client-side code here (browser APIs, JSX...)
 
 const config: Config = {
-  title: "Third Space Interactive Documentation",
-  tagline: "Unreal Engine Templates & Resources",
+  title: "Third Space Streaming Platform",
+  tagline: "Pixel Streaming Made Simple",
   favicon: "img/favicon-32x32.png",
 
   // Future flags, see https://docusaurus.io/docs/api/docusaurus-config#future
@@ -89,9 +89,9 @@ const config: Config = {
       items: [
         {
           type: "docSidebar",
-          sidebarId: "templatesSidebar",
+          sidebarId: "platformSidebar",
           position: "left",
-          label: "Docs",
+          label: "Documentation",
         },
         {
           to: "https://thirdspaceinteractive.ca/blog",

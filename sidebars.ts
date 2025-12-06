@@ -13,47 +13,85 @@ import type {SidebarsConfig} from '@docusaurus/plugin-content-docs';
  Create as many sidebars as you want.
  */
 const sidebars: SidebarsConfig = {
-  templatesSidebar: [
+  platformSidebar: [
     'intro',
     {
       type: 'category',
-      label: 'UE5 Navigation Template',
+      label: 'Getting Started',
       collapsed: false,
+      link: {
+        type: 'doc',
+        id: 'getting-started/index',
+      },
       items: [
-        'archviz-navigation/index',
-        {
-          type: 'category',
-          label: 'Basic Navigation',
-          items: [
-            'archviz-navigation/basic-navigation/setup',
-          ],
-        },
-        {
-          type: 'category',
-          label: 'Advanced Navigation',
-          items: [
-            'archviz-navigation/advanced-navigation/setup',
-          ],
-        },
-        {
-          type: 'category',
-          label: 'Selection System',
-          items: [
-            'archviz-navigation/selection-system/index',
-          ],
-        },
-        'archviz-navigation/troubleshooting',
+        'getting-started/quick-start',
+        'getting-started/system-requirements',
+        'getting-started/first-deployment',
       ],
     },
     {
       type: 'category',
-      label: 'AWS Pixel Streaming',
-      collapsed: false,
+      label: 'Core Concepts',
       items: [
-        'aws-pixel-streaming/index',
-        'aws-pixel-streaming/linux-setup',
+        'core-concepts/index',
+        'core-concepts/how-it-works',
+        'core-concepts/credit-system',
+        'core-concepts/use-cases',
       ],
     },
+    {
+      type: 'category',
+      label: 'Pricing & Plans',
+      items: [
+        'pricing/index',
+      ],
+    },
+    {
+      type: 'category',
+      label: 'Platform Features',
+      items: [
+        'platform-features/dashboard',
+      ],
+    },
+    {
+      type: 'category',
+      label: 'Technical Documentation',
+      items: [
+        {
+          type: 'category',
+          label: 'Packaging Your Project',
+          items: [
+            'technical-docs/packaging/index',
+          ],
+        },
+      ],
+    },
+    {
+      type: 'category',
+      label: 'FAQ',
+      link: {
+        type: 'doc',
+        id: 'faq/index',
+      },
+      items: [],
+    },
+    {
+      type: 'category',
+      label: 'Troubleshooting',
+      link: {
+        type: 'doc',
+        id: 'troubleshooting/index',
+      },
+      items: [],
+    },
+    {
+      type: 'category',
+      label: 'Support & Resources',
+      items: [
+        'support-resources/getting-help',
+      ],
+    },
+    'changelog/index',
   ],
 };
 
