@@ -353,7 +353,7 @@ Pro/Enterprise can pause subscription. Credits freeze during pause period. Resum
 
 ## Next Steps
 
-- [See full pricing comparison](../pricing/plans)
-- [Use the cost calculator](../pricing/cost-calculator)
-- [Explore Enterprise options](../pricing/enterprise)
+- [See full pricing comparison](../pricing)
 - [Start with free tier](../getting-started/quick-start)
+- [Explore use cases](./use-cases)
+- [Learn how it works](./how-it-works)

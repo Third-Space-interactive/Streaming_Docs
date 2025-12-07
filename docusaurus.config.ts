@@ -120,7 +120,7 @@ const config: Config = {
             },
             {
               label: "Privacy Policy",
-              href: "#privacy-policy",
+              href: "https://thirdspaceinteractive.ca/privacy",
             },
             {
               html: `

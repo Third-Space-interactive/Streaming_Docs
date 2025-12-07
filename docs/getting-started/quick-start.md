@@ -132,10 +132,10 @@ Use this iframe code to embed your stream:
 
 ## What's Next?
 
-- **Customize deployment** - Learn about [deployment options](../platform-features/deployment-options)
 - **Monitor usage** - Check your [dashboard](../platform-features/dashboard) for credit consumption
-- **Set up custom domain** - Point your own domain to your stream
 - **Embed in website** - Full [iframe embedding guide](../technical-docs/integration/iframe-embedding)
+- **Explore use cases** - See [real-world examples](../use-case-guides/architecture-real-estate)
+- **Learn the credit system** - Understand [how billing works](../core-concepts/credit-system)
 
 ## Troubleshooting
 

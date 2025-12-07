@@ -133,8 +133,6 @@ On Tick (Every 5 seconds):
 - Use LOD systems for large facilities
 - Cache static geometry, update dynamic elements only
 
-[Technical integration guide →](../technical-docs/integration)
-
 ### Step 3: Configure Access Strategy
 
 **User roles and access:**
@@ -809,9 +807,9 @@ Payback period: 0.76 months
 Ready to build your digital twin?
 
 1. [Review system requirements](../getting-started/system-requirements)
-2. [Plan your data integration](../technical-docs/integration)
-3. [Package your UE digital twin](../technical-docs/packaging)
-4. [Sign up for appropriate tier](https://app.thirdspaceinteractive.ca/signup)
+2. [Package your UE digital twin](../technical-docs/packaging)
+3. [Sign up for appropriate tier](https://app.thirdspaceinteractive.ca/signup)
+4. [Deploy and test](../getting-started/quick-start)
 
 Need help with architecture planning?
 - [Contact Enterprise sales](../support-resources/getting-help)
@@ -823,5 +821,4 @@ Need help with architecture planning?
 **Related Resources:**
 - [Architecture & Real Estate Use Case](./architecture-real-estate)
 - [Education & Training Use Case](./education-training)
-- [Integration Guides](../technical-docs/integration)
-- [API Documentation](../api-reference)
+- [Iframe Embedding Guide](../technical-docs/integration/iframe-embedding)

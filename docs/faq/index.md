@@ -281,20 +281,18 @@ Browser security restricts fullscreen in iframes. Use:
 ></iframe>
 ```
 
-[Iframe troubleshooting →](../troubleshooting/fullscreen-iframe)
+[Iframe embedding guide →](../technical-docs/integration/iframe-embedding)
 
 ---
 
 ## More Questions?
 
-**Browse by category:**
-- [Billing & Credits FAQ](./billing-credits)
-- [Technical FAQ](./technical)
-- [Performance FAQ](./performance)
-- [Security FAQ](./security)
-- [Platform Limitations](./limitations)
-
 **Still need help?**
 - Email: support@thirdspaceinteractive.ca
 - Discord: [Join our community](https://discord.gg/8pVjBjCe)
 - Response time: Within 24 hours (faster for Pro/Enterprise)
+
+**Related Documentation:**
+- [Troubleshooting Guide](../troubleshooting)
+- [Use Case Guides](../use-case-guides/architecture-real-estate)
+- [Technical Documentation](../technical-docs/packaging)

@@ -72,7 +72,7 @@ Before uploading, verify:
 - Insufficient disk space
 - Unreal Engine version mismatch
 
-[See common errors →](./common-errors)
+See the platform-specific guides for detailed error troubleshooting.
 
 ### Upload Rejected
 
@@ -88,5 +88,3 @@ Before uploading, verify:
 Choose your platform:
 - [Package for Linux →](./linux-builds)
 - [Package for Windows →](./windows-builds)
-- [Understand folder structure →](./folder-structure)
-- [Fix common packaging errors →](./common-errors)

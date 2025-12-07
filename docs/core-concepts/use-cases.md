@@ -396,5 +396,5 @@ Choose your use case to learn more:
 Or start deploying:
 
 - [Quick Start Guide](../getting-started/quick-start)
-- [Pricing Calculator](../pricing/cost-calculator)
-- [Contact Sales for Enterprise](../pricing/enterprise)
+- [View Pricing](../pricing)
+- [Contact Support](../support-resources/getting-help)

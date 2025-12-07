@@ -220,9 +220,9 @@ https://stream.thirdspaceinteractive.ca/proj_abc123xyz
 ></iframe>
 ```
 
-**Custom Domain (Pro/Enterprise):**
+**Custom Domain (Coming Soon - Pro/Enterprise):**
 - Point `demo.yourcompany.com` to your stream
-- See [Custom Domain Setup](../technical-docs/integration/custom-domains)
+- Contact support for early access
 
 ## Part 7: Manage Your Credits
 
@@ -261,18 +261,16 @@ Congratulations! You've successfully deployed your first Pixel Stream.
 ### Explore More:
 
 - [Embed in your website](../technical-docs/integration/iframe-embedding)
-- [Set up custom domain](../technical-docs/integration/custom-domains)
 - [Optimize for performance](../troubleshooting/performance-issues)
-- [Scale to multiple users](../platform-features/scalability)
 - [Explore use cases](../use-case-guides/architecture-real-estate)
+- [Learn about the credit system](../core-concepts/credit-system)
 
 ### Upgrade Your Plan:
 
 Need more concurrent users or credits?
 
-- [Compare pricing tiers](../pricing/plans)
-- [Use the cost calculator](../pricing/cost-calculator)
-- [Contact sales for Enterprise](../pricing/enterprise)
+- [Compare pricing tiers](../pricing)
+- [Contact support for help](../support-resources/getting-help)
 
 ## Need Help?
 

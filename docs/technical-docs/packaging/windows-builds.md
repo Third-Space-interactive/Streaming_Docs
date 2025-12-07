@@ -611,8 +611,8 @@ pause
 After successful packaging:
 
 1. [Upload to Third Space →](../../getting-started/first-deployment)
-2. [Configure project settings →](../../getting-started/first-deployment#step-2-configure-settings)
-3. [Deploy and test →](../../getting-started/quick-start)
+2. [Deploy and test →](../../getting-started/quick-start)
+3. [Learn about credits →](../../core-concepts/credit-system)
 
 **Consider Linux packaging for production:**
 - [Linux Packaging Guide →](./linux-builds)
@@ -628,6 +628,6 @@ After successful packaging:
 
 **Related Guides:**
 - [Linux Packaging Guide →](./linux-builds) (recommended for cost savings)
-- [Folder Structure Reference →](./folder-structure)
-- [Common Packaging Errors →](./common-errors)
 - [System Requirements →](../../getting-started/system-requirements)
+- [Troubleshooting Upload Issues →](../../troubleshooting/upload-issues)
+- [Troubleshooting Deployment Issues →](../../troubleshooting/deployment-issues)

@@ -856,7 +856,7 @@ window.addEventListener('beforeunload', function() {
 
 ## Next Steps
 
-- [Explore use cases →](../../use-case-guides)
+- [Explore use cases →](../../use-case-guides/architecture-real-estate)
 - [Sales & Marketing integration →](../../use-case-guides/sales-marketing)
 - [Troubleshoot connection issues →](../../troubleshooting/connection-problems)
 - [Learn about credit system →](../../core-concepts/credit-system)

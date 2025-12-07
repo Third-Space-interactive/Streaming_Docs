@@ -62,7 +62,8 @@ Help us help you faster by providing:
 Many issues are covered in our docs:
 - [FAQ](../faq) - Common questions
 - [Troubleshooting](../troubleshooting) - Issue-specific guides
-- [Error codes](../troubleshooting/error-codes) - Decoder for error messages
+- [Upload Issues](../troubleshooting/upload-issues) - Upload troubleshooting
+- [Deployment Issues](../troubleshooting/deployment-issues) - Deployment errors
 
 ### Search Discord
 
@@ -308,5 +309,7 @@ Topics:
 
 ---
 
-[Next: Video Tutorials →](./video-tutorials)
-[Browse FAQs →](../faq)
+**Next Steps:**
+- [Browse FAQs →](../faq)
+- [Troubleshooting Guides →](../troubleshooting)
+- [Quick Start Guide →](../getting-started/quick-start)

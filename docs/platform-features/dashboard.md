@@ -156,5 +156,7 @@ Quick links from dashboard:
 
 ---
 
-[Learn about deployment options →](./deployment-options)
-[Explore scalability features →](./scalability)
+**Next Steps:**
+- [Quick Start Guide](../getting-started/quick-start)
+- [Understanding Credits](../core-concepts/credit-system)
+- [View Pricing](../pricing)

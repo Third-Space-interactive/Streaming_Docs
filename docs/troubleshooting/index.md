@@ -73,7 +73,7 @@ Common issues and solutions for Third Space Pixel Streaming deployment.
 - Browser security restrictions
 - Mobile Safari limitations
 
-[Iframe fullscreen guide →](./fullscreen-iframe)
+[Iframe embedding guide →](../technical-docs/integration/iframe-embedding)
 
 ---
 
@@ -92,7 +92,7 @@ Common issues and solutions for Third Space Pixel Streaming deployment.
 | **ERR_007** | Concurrent user limit | Upgrade tier for more users |
 | **ERR_008** | Invalid zip format | Use .zip (not .rar or .7z) |
 
-[Full error code reference →](./error-codes)
+See detailed troubleshooting guides for each error type above.
 
 ---
 
@@ -208,5 +208,8 @@ Browse detailed troubleshooting guides:
 - [Deployment Issues →](./deployment-issues)
 - [Performance Issues →](./performance-issues)
 - [Connection Problems →](./connection-problems)
-- [Iframe Fullscreen →](./fullscreen-iframe)
-- [Error Codes →](./error-codes)
+
+**Additional Resources:**
+- [Iframe Embedding Guide →](../technical-docs/integration/iframe-embedding)
+- [Getting Started →](../getting-started/quick-start)
+- [Contact Support →](../support-resources/getting-help)
